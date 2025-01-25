@@ -1,0 +1,23 @@
+{
+  "name": "carrer-data-populator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "logJobAds": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ian McNaughton <IanMcNaugh@gmail.com> (http://ianmcnaughton.net/)",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^12.1.0",
+    "puppeteer": "^22.11.2",
+    "sqlite": "^5.1.1",
+    "sqlite3": "^5.1.7",
+    "url-scraper": "file:../career_page_data_scraper",
+    "uuid": "^9.0.1"
+  }
+}
