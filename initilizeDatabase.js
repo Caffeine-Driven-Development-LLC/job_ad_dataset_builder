@@ -1,7 +1,7 @@
 import {open} from "sqlite";
 import sqlite3 from "sqlite3";
 
-const defaultFilePath = '/Users/ianmcnaughton/Documents/careerListing.sqlite'
+const defaultFilePath = 'careerListing.sqlite'
 
 export async function initializeDatabase(filePath){
   return open({
